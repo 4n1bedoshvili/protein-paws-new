@@ -1,0 +1,134 @@
+*{
+    font-family: "oswald", serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(assets/body-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    background-image: url(assets/petfoodbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 200px;
+}
+
+span{
+    display: block;
+    font-weight: 400;
+}
+
+h1{
+    font-family: "oswald", serif;
+    font-weight: 300;
+    margin-left: 499px;
+    padding-top: 91px;
+
+}
+h1 span{
+    color: #322c23;
+    font-size: 70px;
+}
+
+nav{
+    background-color: #8ca38f;
+    width: 100%;
+    padding: 10px;
+}
+
+a{
+    text-decoration: unset;
+    font-size: 20px;
+    font-family: "oswald", serif;
+    margin-right: 20px;
+    color: #163327;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+footer{
+    width: 100%;
+    background-color:  #202921;
+    height: 130px;
+}
+main{
+    display: inline-block;
+    width: 35%;
+    letter-spacing: 2px;
+    padding: 30px 20px
+}
+
+.choose, .quality{
+    color: #bdb18e;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 10px 0px 10px 0px;
+}
+.chooseP, .qualityP{
+    font-size: 20px;
+    font-weight: 200;
+    color: #b79f7c;
+}
+
+.choose, .chooseP{
+    text-align: left;
+}
+
+.quality, .qualityP{
+    text-align: right;
+}
+
+aside{
+    display: inline-block;
+    width: 65%;
+    background-color: #59725d;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid #515552;
+    text-align: center;
+    box-shadow: 5px 5px 15px #202921;
+    margin-bottom:52px
+}
+
+aside img{
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid #163327;
+    box-shadow: 5px 5px 15px #202921;
+    margin: 25px 0px;
+}
+
+aside h3, aside p{
+    font-family: "oswald", serif;
+    color: #bdb18e;
+}
+
+aside h3{
+    font-size: 37px;
+    font-weight: 200;
+    padding: 20px 0px;
+}
+aside p{
+    font-weight: 300;
+    font-size: 20px;
+    padding: 30px 30px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    color: #8ca38f;
+    font-weight: bold;
+    font-family: "oswald", serif;
+    padding-top: 60px;
+}
